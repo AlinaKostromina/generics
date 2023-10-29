@@ -108,9 +108,6 @@ public class AviaSoulsTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-
-
-
     // tests for Comparator
     @Test
     public void testingSortMethodSeveralTicketsWithComparator(){
@@ -192,8 +189,4 @@ public class AviaSoulsTest {
         Ticket[] actual = manager.search("OVB", "SPB", comparator);
         Assertions.assertArrayEquals(expected, actual);
     }
-
-
-
-
 }
